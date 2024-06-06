@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --soft-blue: hsl(231, 69%, 60%);
+  --soft-red: hsl(0, 94%, 66%);
+  --greyish-blue: hsl(229, 8%, 60%);
+  --very-dark-blue: hsl(229, 31%, 21%);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.col {
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+p {
+  color: var(--very-dark-blue);
+  font-weight: 300;
+  line-height: 20px;
+}
+h2 {
+  margin: 15px 0;
+  color: var(--very-dark-blue);
+}

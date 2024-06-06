@@ -44,7 +44,7 @@ const faqs = ref([
               {{ item.question }}
             </h2>
             <img
-              src="./../assets/bookmark-landing-page-master/images/icon-arrow.svg"
+              src="/public/images/icon-arrow.svg"
               alt=""
               class="icon"
               :class="{ active: item.clicked }"

@@ -25,10 +25,6 @@ const currentTab = ref(0)
 </script>
 
 <template>
-  <img
-    src="./../../src/assets/bookmark-landing-page-master/images/illustration-features-tab-1.svg"
-    alt=""
-  />
   <div class="container">
     <div class="wrapper">
       <h2>Features</h2>

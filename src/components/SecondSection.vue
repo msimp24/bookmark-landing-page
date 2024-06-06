@@ -6,7 +6,7 @@ const tabs = ref([
     tab: 'Simple bookmarking',
     header: 'Bookmark in one click',
     info: 'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.',
-    link: '/src/assets/bookmark-landing-page-master/images/illustration-features-tab-1.svg'
+    link: '../src/assets/bookmark-landing-page-master/images/illustration-features-tab-1.svg'
   },
   {
     tab: 'Speedy Searching',

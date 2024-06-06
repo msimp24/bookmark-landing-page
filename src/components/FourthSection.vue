@@ -43,12 +43,7 @@ const faqs = ref([
             <h2 class="accordion-title" :class="{ active: item.clicked }">
               {{ item.question }}
             </h2>
-            <img
-              src="./../assets/bookmark-landing-page-master/images/icon-arrow.svg"
-              alt=""
-              class="icon"
-              :class="{ active: item.clicked }"
-            />
+            <img src="/icon-arrow.svg" alt="" class="icon" :class="{ active: item.clicked }" />
           </div>
 
           <div :class="{ active: item.clicked }" class="accordion-content">

@@ -6,25 +6,26 @@ const tabs = ref([
     tab: 'Simple bookmarking',
     header: 'Bookmark in one click',
     info: 'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.',
-    link: './../../src/assets/bookmark-landing-page-master/images/illustration-features-tab-1.svg'
+    link: '/public/images/illustration-features-tab-1.svg'
   },
   {
     tab: 'Speedy Searching',
     header: 'Intelligent search',
     info: 'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.',
-    link: './../../src/assets/bookmark-landing-page-master/images/illustration-features-tab-2.svg'
+    link: '/public/images/illustration-features-tab-2.svg'
   },
   {
     tab: 'Easy Sharing',
     header: 'Share your bookmarks',
     info: 'Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.',
-    link: './../../src/assets/bookmark-landing-page-master/images/illustration-features-tab-3.svg'
+    link: '/public/images/illustration-features-tab-3.svg'
   }
 ])
 const currentTab = ref(0)
 </script>
 
 <template>
+  <img src="" alt="" />
   <div class="container">
     <div class="wrapper">
       <h2>Features</h2>
@@ -50,7 +51,7 @@ const currentTab = ref(0)
     <div class="row">
       <div class="col">
         <div class="background-img">
-          <img :src="tabs[currentTab].link" alt="" />
+          <img :src="tabs[currentTab].link" />
         </div>
       </div>
       <div class="col">

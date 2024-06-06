@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router'
   <div class="container">
     <nav class="nav">
       <RouterLink class="logo" to="/">
-        <img src="../assets/bookmark-landing-page-master/images/logo-bookmark.svg" alt="" />
+        <img src="/public/images/logo-bookmark.svg" alt="" />
       </RouterLink>
 
       <ul class="nav-list">

@@ -16,7 +16,7 @@
       </div>
       <div class="col">
         <div class="background-img">
-          <img src="/public/images/illustration-hero.svg" alt="" />
+          <img src="../assets/bookmark-landing-page-master/images/illustration-hero.svg" alt="" />
         </div>
       </div>
     </div>

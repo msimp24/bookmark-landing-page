@@ -5,17 +5,17 @@ import { ref } from 'vue'
 
 const cardData = ref([
   {
-    link: '/public/images/logo-chrome.svg',
+    link: 'src/assets/bookmark-landing-page-master/images/logo-chrome.svg',
     header: 'Add to Chrome',
     version: 'Minimum version 62'
   },
   {
-    link: '/public/images/logo-firefox.svg',
+    link: 'src/assets/bookmark-landing-page-master/images/logo-firefox.svg',
     header: 'Add to Firefox',
     version: 'Minimum version 55'
   },
   {
-    link: '/public/images/logo-opera.svg',
+    link: 'src/assets/bookmark-landing-page-master/images/logo-opera.svg',
     header: 'Add to Opera',
     version: 'Minimum version 46'
   }

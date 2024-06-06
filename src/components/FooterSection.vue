@@ -28,8 +28,16 @@
           </div>
 
           <div class="icons-container">
-            <img class="icon" src="/public/images/icon-facebook.svg" alt="" />
-            <img class="icon" src="/public/images/icon-twitter.svg" alt="" />
+            <img
+              class="icon"
+              src="./../assets/bookmark-landing-page-master/images/icon-facebook.svg"
+              alt=""
+            />
+            <img
+              class="icon"
+              src="./../assets/bookmark-landing-page-master/images/icon-twitter.svg"
+              alt=""
+            />
           </div>
         </ul>
       </nav>

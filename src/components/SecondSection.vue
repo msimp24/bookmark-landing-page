@@ -50,7 +50,7 @@ const currentTab = ref(0)
     <div class="row">
       <div class="col">
         <div class="background-img">
-          <img :src="`/src/assets/bookmark-landing-page-master/images/${tabs[currentTab].link}`" />
+          <img :src="`/${tabs[currentTab].link}`" />
         </div>
       </div>
       <div class="col">

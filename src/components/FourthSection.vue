@@ -44,7 +44,7 @@ const faqs = ref([
               {{ item.question }}
             </h2>
             <img
-              src="/public/images/icon-arrow.svg"
+              src="./../assets/bookmark-landing-page-master/images/icon-arrow.svg"
               alt=""
               class="icon"
               :class="{ active: item.clicked }"
@@ -110,5 +110,4 @@ button:hover {
 .col {
   margin-top: 20px;
 }
-.accordion: nth-child(2);
 </style>
